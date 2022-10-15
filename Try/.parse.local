@@ -1,0 +1,10 @@
+{
+  "applications": {
+    "Sample Blog App": {
+      "applicationId": "4qaCHnlOsOVkZHYfd0QB65r7ytklXnzJIBZa9b4P"
+    },
+    "_default": {
+      "link": "Sample Blog App"
+    }
+  }
+}
