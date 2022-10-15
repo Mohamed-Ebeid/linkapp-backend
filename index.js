@@ -25,4 +25,6 @@ app.use(morgan("dev"));
 app.use("/api", authRoutes);
 app.use("/api", authLink);
 
-app.listen(5000, () => console.log("Server running on port 5000"));
+app.listen(process.env.PORT || 5000, () =>
+  console.log("Server running on port 5000")
+);
