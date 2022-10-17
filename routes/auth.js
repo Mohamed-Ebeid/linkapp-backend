@@ -17,7 +17,7 @@ const { signedIn } = require("../helpers/auth");
 
 router.get("/", (req, res) => {
   return res.json({
-    data: "hello world from React Native API",
+    data: "hello from React Native API",
   });
 });
 router.post("/signup", signup);
